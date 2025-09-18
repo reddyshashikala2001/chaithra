@@ -1,0 +1,6 @@
+<div ng-app="" ng-init="nums=[5,3,9,1,7]">
+  <p>Sorted Numbers:</p>
+  <ul>
+    <li ng-repeat="n in nums | orderBy">{{n}}</li>
+  </ul>
+</div>

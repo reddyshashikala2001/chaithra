@@ -1,0 +1,9 @@
+<div ng-app="myApp" ng-controller="myCtrl">
+  <h2>{{message}}</h2>
+</div>
+
+<script>
+  angular.module("myApp", []).controller("myCtrl", function($scope) {
+    $scope.message = "Hello from Controller!";
+  });
+</script>
